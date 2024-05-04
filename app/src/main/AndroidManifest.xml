@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Miwok"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:targetApi="31">
+
+<!--        INSTEAD OF DEFINING STYLE GLOBALLY FOR EACH ACTIVTY DEFINE IN THERE OWN ACTIVITY-->
+<!--        TO ENSURE THAT WHICH ACTIVITY WILL USE TOOLBAR BACAUSE FOR THAT NO ACTION THEME IS REAUIRED-->
+
+        <activity
+            android:name=".PhrasesActivity"
+            android:label="Phrases"
+            android:theme="@style/MythemeNoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".FamilyActivity"
+            android:label="Family"
+            android:theme="@style/MythemeNoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".ColorsActivity"
+            android:label="Colors"
+            android:theme="@style/MythemeNoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".NumberActivity"
+            android:label="Numbers"
+            android:theme="@style/MythemeNoActionBar"
+            android:exported="false"
+            />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.MultiScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

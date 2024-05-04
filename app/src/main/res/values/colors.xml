@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="startColor">#FF4081</color>
+    <color name="endColor">#3F51B5</color>
+    <color name="bar_color">#1E3EEF</color>
+    <color name="off_white">#F4DFC3</color>
+
+    <color name="text_color">#06140B</color>
+
+    <color name="numbers_color">#DFBF98</color>
+
+    <color name="family_color">#4A7CA6A1</color>
+
+    <color name="colors_color">#D7C8EF</color>
+
+    <color name="phrases_color">#F4D6F6</color>
+</resources>

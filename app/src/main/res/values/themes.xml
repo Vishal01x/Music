@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MultiScreen" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">#EDA842</item>
+        <item name="colorPrimaryDark">#FFA726</item>
+        <item name="fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="Theme.MultiScreen" parent="Base.Theme.MultiScreen" />
+
+    <!--    create two theme noaction for using toolbar and one for use default app bar-->
+    <!--   there is some change in manifest i.e. provide theme for each screen separate-->
+
+    <style name="MythemeNoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#EDA842</item>
+        <item name="colorPrimaryDark">@color/bar_color</item>
+        <item name="fontFamily">sans-serif-black</item>
+    </style>
+
+
+    <style name="styling">
+        <item name="android:textSize">40sp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+
+
+    </style>
+</resources>
